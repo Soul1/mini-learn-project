@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/mini-learn-project/static/css/main.6a934dfc.chunk.css",
+    "main.js": "/mini-learn-project/static/js/main.39c68c6b.chunk.js",
+    "main.js.map": "/mini-learn-project/static/js/main.39c68c6b.chunk.js.map",
+    "runtime-main.js": "/mini-learn-project/static/js/runtime-main.815415fe.js",
+    "runtime-main.js.map": "/mini-learn-project/static/js/runtime-main.815415fe.js.map",
+    "static/js/2.3634e2bb.chunk.js": "/mini-learn-project/static/js/2.3634e2bb.chunk.js",
+    "static/js/2.3634e2bb.chunk.js.map": "/mini-learn-project/static/js/2.3634e2bb.chunk.js.map",
+    "index.html": "/mini-learn-project/index.html",
+    "precache-manifest.99c9419fc479e298be415d8e1e140aa9.js": "/mini-learn-project/precache-manifest.99c9419fc479e298be415d8e1e140aa9.js",
+    "service-worker.js": "/mini-learn-project/service-worker.js",
+    "static/css/main.6a934dfc.chunk.css.map": "/mini-learn-project/static/css/main.6a934dfc.chunk.css.map",
+    "static/js/2.3634e2bb.chunk.js.LICENSE.txt": "/mini-learn-project/static/js/2.3634e2bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.815415fe.js",
+    "static/js/2.3634e2bb.chunk.js",
+    "static/css/main.6a934dfc.chunk.css",
+    "static/js/main.39c68c6b.chunk.js"
+  ]
+}
