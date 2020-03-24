@@ -1,0 +1,24 @@
+.friends {
+  &-inner {
+
+  }
+}
+
+.enter {
+  &-friend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & input {
+      max-width: 500px;
+      width: 100%;
+      padding: 12px;
+    }
+
+    & button {
+      padding: 20px 32px;
+      background-color: rgba(62, 85, 125, 0.51);
+    }
+  }
+}

@@ -1,17 +1,17 @@
 import React from 'react';
 import EnterNewFriendName from "./enterNewFriendName";
-import nameMyFriend from "./nameMyFriend";
+import NameMyFriend from "./nameMyFriend";
+import './myFriends.scss'
 
-const namesMyFriends = ({arrNamesFriends}) => {
+const NamesMyFriends = ({arrNamesFriends}) => {
 
-  const names = arrNamesFriends.map(name => <nameMyFriend name={name}/>);
-  debugger
+  const names = arrNamesFriends.map(name => <NameMyFriend name={name}/>);
   return (
-    <div>
-      <div><EnterNewFriendName/></div>
-      <div>{names}</div>
+    <div className='friends-inner'>
+      <div className='enter'><EnterNewFriendName/></div>
+      <div className='name'>{names}</div>
     </div>
   );
 };
 
-export default namesMyFriends;
+export default NamesMyFriends;

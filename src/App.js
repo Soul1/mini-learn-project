@@ -1,15 +1,19 @@
 import React from 'react';
-import namesMyFriends from './Containers/myFriends/namesMyFriends';
-import './App.css';
+import './App.scss';
 import MyName from "./Component/MyName/MyName";
 import MySkills from "./Containers/MySkills/MySkills";
+import NamesMyFriends from "./Containers/myFriends/namesMyFriends";
 
 const App = () => {
   return (
     <div className="app">
-      <MyName/>
-      <MySkills/>
-      <namesMyFriends/>
+      <div className='app__info-me'>
+        <MyName/>
+        <MySkills/>
+      </div>
+      <div className='app__info-friends'>
+      <NamesMyFriends/>
+      </div>
     </div>
   );
 };

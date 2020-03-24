@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  background-image: url(assets/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+body {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.app {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.06);
+  height: 100vh;
+  padding-top: 30px;
+  &__info {
+    &-me {
+      margin-bottom: 150px;
+
+    }
+
+    &-friends {
+    }
+  }
+}

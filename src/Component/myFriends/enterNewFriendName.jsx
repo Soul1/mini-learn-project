@@ -4,7 +4,7 @@ import Button from "../common/Button";
 
 function EnterNewFriendName({}) {
   return (
-    <div>
+    <div className='enter-friend'>
       <Input/>
       <Button/>
     </div>

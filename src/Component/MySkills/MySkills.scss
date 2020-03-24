@@ -1,0 +1,15 @@
+.skills {
+  &-inner {
+    display: inline;
+    font-size: 30px;
+    border: 4px solid #fff;
+    padding: 10px 15px;
+  }
+}
+.skill {
+  display: inline-block;
+  border: 2px double #61dafb;
+  & + .skill{
+    margin-left: 20px;
+  }
+}

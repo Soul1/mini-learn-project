@@ -1,5 +1,5 @@
 const initialState = {
-  skills: ['fff','ddd','sss']
+  skills: ['Общительный','Жизнерадостный','Трудолюбивый']
 };
 
 const mySkills = (state = initialState, action) => {

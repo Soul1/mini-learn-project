@@ -1,14 +1,15 @@
 import React, {useState} from 'react';
+import './MyName.scss'
 
 const MyName = () => {
 
-  const [name] = useState('Midaev Akhmad')
+  const [name] = useState('Midaev Akhmad');
 
   return (
-    <div>
+    <div className='name'>
       {name}
     </div>
   );
-}
+};
 
 export default MyName;

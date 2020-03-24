@@ -1,6 +1,6 @@
 import React from 'react';
 
-const nameMyFriend = ({name}) => {
+const NameMyFriend = ({name}) => {
   return (
     <div>
       <div>{name}</div>
@@ -8,4 +8,4 @@ const nameMyFriend = ({name}) => {
   );
 };
 
-export default nameMyFriend;
+export default NameMyFriend;
