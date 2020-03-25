@@ -1,7 +1,13 @@
 import React from 'react';
 
-function Button() {
-  return <button></button>;
-}
+const Button = ({namesFriends, setNewName, setNamesFriends}) => {
+
+  const enterNewName = () => {
+    setNamesFriends('');
+    setNewName(namesFriends)
+  };
+
+  return <button onClick={enterNewName}/>;
+};
 
 export default Button;

@@ -1,12 +1,12 @@
 const initialState = {
-  namesMyFriends: ['ddddd'],
+  namesMyFriends: [],
 };
 
 
 const namesMyFriends = (state=initialState, action) => {
   switch (action.type) {
     case 'SET-NEW-NAME-FRIEND':
-      return {...state, namesMyFriends: [...namesMyFriends, action.payload]};
+      return {...state, namesMyFriends: [...state.namesMyFriends, action.payload]};
     default:
       return state
   }
