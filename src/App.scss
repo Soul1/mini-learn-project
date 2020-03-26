@@ -14,30 +14,40 @@ html {
 ul,
 li {
   list-style: none;
-  display: inline-block;
+  display: block;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.9);
+  text-decoration: none;
 }
 
 body {
   color: #fff;
   font-size: 20px;
   font-weight: 500;
+  overflow: hidden;
 }
 
 .app {
-  text-align: center;
-  margin: 0 auto;
-  max-width: 1000px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.06);
-  height: 100vh;
-  padding-top: 30px;
+  display: flex;
+
   &__info {
     &-me {
       margin-bottom: 150px;
-
     }
+  }
+  &__nav{
 
-    &-friends {
-    }
+  }
+  &__main{
+
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.06);
+    height: 100vh;
+    padding-top: 30px;
   }
 }
