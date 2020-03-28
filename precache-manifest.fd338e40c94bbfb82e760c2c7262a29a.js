@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "485e12426a10526c0762ea817756ac63",
+    "revision": "aaa01d3b347fdee5741ff0f3cbf04a0b",
     "url": "/mini-learn-project/index.html"
   },
   {
-    "revision": "c94d14e391dfc013d148",
-    "url": "/mini-learn-project/static/css/main.e2a51e10.chunk.css"
+    "revision": "eb80bf2e880470fae110",
+    "url": "/mini-learn-project/static/css/main.bc5fc35e.chunk.css"
   },
   {
-    "revision": "6b121b416d3d3cacb332",
-    "url": "/mini-learn-project/static/js/2.a6b37b9c.chunk.js"
+    "revision": "e245a6369c5b7067abe7",
+    "url": "/mini-learn-project/static/js/2.f235e514.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/mini-learn-project/static/js/2.a6b37b9c.chunk.js.LICENSE.txt"
+    "url": "/mini-learn-project/static/js/2.f235e514.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c94d14e391dfc013d148",
-    "url": "/mini-learn-project/static/js/main.1aeaa871.chunk.js"
+    "revision": "eb80bf2e880470fae110",
+    "url": "/mini-learn-project/static/js/main.ad29c3b7.chunk.js"
   },
   {
     "revision": "6be3fe34d9d7b527380d",
