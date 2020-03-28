@@ -1,11 +1,8 @@
 import React from 'react';
+import MainTodoList from "./todoLists/MainTodoList";
 
 const Tuesday = () => {
-  return (
-    <div>
-      Tuesday
-    </div>
-  );
+  return <MainTodoList/>;
 };
 
 export default Tuesday;
