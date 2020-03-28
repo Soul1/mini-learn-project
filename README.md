@@ -1,1 +1,1 @@
-﻿demo:  https://soul1.github.io/Social-network/
+﻿demo: https://soul1.github.io/mini-learn-project/
