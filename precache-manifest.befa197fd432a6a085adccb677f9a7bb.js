@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5eb82bd25fe1da4ff8388d2ad18d1de",
+    "revision": "dc14e41d91f2ce5d33fe1ec1b473a6c6",
     "url": "/mini-learn-project/index.html"
   },
   {
-    "revision": "dbf2ac43e20df511250e",
+    "revision": "7d7058358efa27554dcf",
     "url": "/mini-learn-project/static/css/main.bc5fc35e.chunk.css"
   },
   {
-    "revision": "6cc62bfc08616fdc4674",
-    "url": "/mini-learn-project/static/js/2.875b6808.chunk.js"
+    "revision": "28af4dcd89606699f6bb",
+    "url": "/mini-learn-project/static/js/2.5894b963.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/mini-learn-project/static/js/2.875b6808.chunk.js.LICENSE.txt"
+    "url": "/mini-learn-project/static/js/2.5894b963.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dbf2ac43e20df511250e",
-    "url": "/mini-learn-project/static/js/main.b3f6eeab.chunk.js"
+    "revision": "7d7058358efa27554dcf",
+    "url": "/mini-learn-project/static/js/main.02460ba9.chunk.js"
   },
   {
     "revision": "6be3fe34d9d7b527380d",
