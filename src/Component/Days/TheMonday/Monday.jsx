@@ -1,7 +1,7 @@
 import React from 'react';
-import MyName from "../MyName/MyName";
-import MySkills from "../../Containers/MySkills/MySkills";
-import NamesMyFriends from "../../Containers/myFriends/namesMyFriends";
+import MyName from "../../MyName/MyName";
+import MySkills from "../../../Containers/MySkills/MySkills";
+import NamesMyFriends from "../../../Containers/myFriends/namesMyFriends";
 
 const Monday = () => {
   return (

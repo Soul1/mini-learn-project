@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 
-const AddNewItemForm = (props) => {
+const AddNewItemForm = ({addItem}) => {
 
-  let [nameChange, setNameChange] = useState('')
-  let [error, setError] = useState(false)
+  let [nameChange, setNameChange] = useState('');
+  let [error, setError] = useState(false);
 
 
   let handleChange = (e) => {
@@ -19,7 +19,7 @@ const AddNewItemForm = (props) => {
       setError(error = false)
     }
     if (!error) {
-      props.addItem(nameChange);
+      addItem(nameChange);
       setNameChange(nameChange = '')
     }
   };

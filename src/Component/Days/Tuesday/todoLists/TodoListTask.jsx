@@ -30,7 +30,8 @@ class TodoListTask extends React.Component {
       <div className="todoList-task">
         <input onChange={this.onIsDoneChanged}
                type="checkbox"
-               checked={this.props.task.isDone}/>
+               checked={this.props.task.isDone}
+        />
 
         <span className={this.props.task.isDone ? 'taskCompleted' : ''}>
           {this.props.task.id} - &nbsp;

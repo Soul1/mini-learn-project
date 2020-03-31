@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.scss';
-import Monday from "./Component/TheMonday/Monday";
+import Monday from "./Component/Days/TheMonday/Monday";
 import NavBar from "./Component/NavBar/NavBar";
 import {Route} from "react-router-dom";
-import Thursday from "./Component/Thursday/Thursday";
-import Friday from "./Component/Friday/Friday";
-import Wednesday from "./Component/Wednesday/Wednesday";
-import Tuesday from "./Component/Tuesday/Tuesday";
+import Thursday from "./Component/Days/Thursday/Thursday";
+import Friday from "./Component/Days/Friday/Friday";
+import Wednesday from "./Component/Days/Wednesday/Wednesday";
+import Tuesday from "./Component/Days/Tuesday/Tuesday";
 
 const App = () => {
   return (
